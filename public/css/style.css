@@ -1,0 +1,114 @@
+body{
+	font-family: 'Century Gothic';
+	font-weight: bolder;
+    color:rgb(0, 0, 0);
+	background: linear-gradient(to bottom left, rgb(170, 59, 170), rgb(61, 61, 184));
+	/* background-image: url(img/aa.jpg);*/
+	background-size: 100% 150%; 
+	/* background-size: cover; */
+}
+ 
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+ /* .t{
+    background: linear-gradient(to bottom right,#b0afad, #c4c4bc,#b3aaa0,#b7a499, white);
+ } */
+.tulisan_login{
+	margin: auto;
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+    text-transform: uppercase;
+	font-size:18pt;
+	color: black;
+}
+ 
+.kotak_login{
+    width: 53%;
+    height: 500px;
+	background: rgb(255, 255, 255);
+	/*meletakkan form ke tengah*/
+	margin:  auto;
+	margin-top: 60px;
+	padding: 30px 20px;
+	border-radius: 10px;
+}
+.h{
+	width: 50%;
+	height: 350px;
+	background-color: rgb(255, 255, 255);
+	margin-top: -53%;
+	margin-left: 50%;
+	padding: 10px;
+
+}
+.w{
+	width: 50%;
+	height: 350px;
+	background-color: rgb(255, 255, 255);
+	margin-top: -62%;
+	margin-left: 50%;
+	padding: 10px;
+
+}
+.form_login:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+ 
+
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing: border-box;
+	width: 75%;
+	font-size: 10pt;
+	padding: 7px;
+	border-radius:20px ;
+	background-color: rgb(179, 174, 179);
+    
+}
+
+ 
+.tombol_login{
+	background-color: rgb(67, 163, 47);
+	color: rgb(255, 255, 255);
+	font-size: 10pt;
+	width: 70%;
+	border-radius: 20px;
+    padding: 7px;
+	margin: center;
+	margin-top: 10px;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+.f{
+  font-size: 11pt; 
+  color: black;
+
+}
+.z{
+	margin-top: 10%;
+	font-size: 15pt;
+    color: rgb(0, 0, 0);
+    
+}
+header{
+	background-color: rgb(255, 209, 77);
+	padding: 8px;
+}
+
+
+.nav-link{
+	color: black;
+    font-size: 12pt;
+}
+.t{
+	margin-top: 8%;
+}
